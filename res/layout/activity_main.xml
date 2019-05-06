@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/functio_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/functio_title" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="IV型背夹清除攻击工具"
+            android:textColor="@color/functio_title_text"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="40dp"
+        android:background="#0b97d4" />
+
+    <LinearLayout
+        android:layout_width="@dimen/mainkey_info_width"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="请输入6位提示码:"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/mainkey_tv_size" />
+
+            <EditText
+                android:id="@+id/work_key_et"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/textview_bord_pwd"
+                android:inputType="number"
+                android:digits="1234567890"
+                android:hint="请输入6位提示码"
+                android:maxLength="6"
+                android:paddingLeft="8dp"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textColorHint="#dddddd"
+                android:textSize="@dimen/mainkey_tv_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="清除密码:    "
+                android:textColor="#ffffff"
+                android:textSize="@dimen/mainkey_tv_size" />
+
+            <EditText
+                android:id="@+id/pin_et"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/textview_bord_pwd"
+                android:digits="1234567890"
+                android:maxLength="16"
+                android:focusable="false"
+                android:paddingLeft="8dp"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textColorHint="#dddddd"
+                android:textSize="@dimen/mainkey_tv_size" />
+        </LinearLayout>
+
+        <com.sunyard.util.MyKeyboardView
+            android:id="@+id/keyboard_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:background="@color/functio_background"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:keyBackground="@drawable/keyboard01"
+            android:keyTextColor="#ffffff"
+            android:keyTextSize="@dimen/mainkey_kb_size" 
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/go_bt"
+        android:layout_width="280dp"
+        android:layout_height="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/selector_btn_pwd"
+        android:gravity="center"
+        android:text="执       行"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+</RelativeLayout>

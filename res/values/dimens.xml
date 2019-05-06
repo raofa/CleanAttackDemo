@@ -1,0 +1,80 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="main_list_width">130dp</dimen>
+    <dimen name="main_list_text_size">14sp</dimen>
+    <dimen name="main_list_tv_height">35dp</dimen>
+    <dimen name="main_list_img_width">20dp</dimen>
+    <dimen name="main_list_img_height">20dp</dimen>
+    <dimen name="main_title_height">35dp</dimen>
+
+    <dimen name="bluetooth_top">20dp</dimen>
+    <dimen name="bluetooth_left">50dp</dimen>
+    <dimen name="bluetooth_text_width">160dp</dimen>
+    <dimen name="bluetooth_text_height">23dp</dimen>
+    <dimen name="bluetooth_list1_height">70dp</dimen>
+    <dimen name="bluetooth_list2_height">120dp</dimen>
+    <dimen name="bluetooth_item_height">35dp</dimen>
+    <dimen name="bluetooth_item_btn_width">100dp</dimen>
+    <dimen name="bluetooth_item_btn_height">20dp</dimen>
+    <dimen name="bluetooth_item_btn_size">12dp</dimen>
+    <dimen name="bluetooth_item_text_size">12dp</dimen>
+    <dimen name="bluetooth_text_size">14sp</dimen>
+
+    <dimen name="pwd_text_size">15sp</dimen>
+    <dimen name="pwd_btn_size">15sp</dimen>
+    <dimen name="pwd_btn_all_height">250dp</dimen>
+	<dimen name="pwd_btn_height">30dp</dimen>
+	<dimen name="pwd_btn_width">90dp</dimen>
+	<dimen name="pwd_tx_right">130dp</dimen>
+	<dimen name="layout_marginBottom">20dp</dimen>
+
+	<dimen name="id_img_left">250dp</dimen>
+	<dimen name="id_img_top">10dp</dimen>
+	<dimen name="id_img_width">100dp</dimen>
+	<dimen name="id_img_height">110dp</dimen>
+	<dimen name="id_info_width">360dp</dimen>
+	<dimen name="id_info_width_2">400dp</dimen>
+	<dimen name="id_tv_size">14sp</dimen>
+
+	<dimen name="bankcard_info_width">360dp</dimen>
+	<dimen name="bankcard_tv_size">14sp</dimen>
+	<dimen name="bankcard_tv_one_top">52dp</dimen>
+	<dimen name="bankcard_tv_two_top">85dp</dimen>
+	<dimen name="bankcard_tv_three_top">117dp</dimen>
+
+	<dimen name="fingerprint_info_width">360dp</dimen>
+	<dimen name="fingerprint_tv_title_size">16sp</dimen>
+	<dimen name="fingerprint_tv_content_size">14sp</dimen>
+
+	<dimen name="mainkey_info_width">400dp</dimen>
+	<dimen name="mainkey_tv_size">15sp</dimen>
+	<dimen name="mainkey_tv_top">20dp</dimen>
+	<dimen name="mainkey_kb_top">20dp</dimen>
+	<dimen name="mainkey_kb_size">30sp</dimen>
+	<dimen name="mainkey_kb_width">40dp</dimen>
+	<dimen name="mainkey_kb_height">20dp</dimen>
+
+	<dimen name="rsa_info_width">360dp</dimen>
+	<dimen name="rsa_tv_title_size">17sp</dimen>
+	<dimen name="rsa_tv_content_size">15sp</dimen>
+
+	<dimen name="gm_info_width">360dp</dimen>
+	<dimen name="gm_tv_title_size">17sp</dimen>
+	<dimen name="gm_tv_content_size">15sp</dimen>
+
+	<dimen name="bankname_info_width">360dp</dimen>
+
+	<dimen name="devicePro_grid_left">20dp</dimen>
+	<dimen name="devicePro_grid_right">20dp</dimen>
+	<dimen name="devicePro_grid_bottom">20dp</dimen>
+	<dimen name="devicePro_grid_top">75dp</dimen>
+	<dimen name="devicePro_grid_size">16sp</dimen>
+	<dimen name="devicePro_path_top">36dp</dimen>
+	<dimen name="devicePro_path_left">25dp</dimen>
+	<dimen name="devicePro_path_right">25dp</dimen>
+
+
+</resources>
